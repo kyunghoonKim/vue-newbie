@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-stone-100 dark:bg-gray-800;
+  @apply text-gray-800 dark:text-stone-100;
+  @apply transition-colors;
+  @apply w-screen h-screen;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+div,
+section,
+article,
+header,
+nav,
+main,
+p,
+span,
+button,
+a,
+em,
+i {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+input {
+  @apply bg-stone-100 dark:bg-gray-800;
+  @apply text-gray-800 dark:text-stone-100;
+}
+
+strong,
+.bold {
+  @apply font-bold;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+img {
+  @apply inline;
+}
